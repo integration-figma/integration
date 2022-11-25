@@ -1,11 +1,17 @@
+import { Skill } from "../../components/competence";
+import { Temoin } from "../../components/temoin";
+import { Actu } from "../../components/actualiter";
+import { Contact } from "../../components/contact";
 
-function Home() {
+const Home = () => {
   return (
-    <div >
-            <h1 className="bg-red-500">Branch de Norman</h1>
-      <h1>Branch de Norman</h1>
-    </div>
+    <>
+      < Skill/>
+      < Temoin/>
+      < Actu/>
+      < Contact/>
+    </>
   );
-}
+};
 
 export default Home;
