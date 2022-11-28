@@ -3,6 +3,6 @@ import { styles } from "./styles";
 
 export const Skill = () => {
   return (
-    <h1>test</h1>
+    <h1 className={`${styles.sm.bg}`}>test</h1>
   );
 };
