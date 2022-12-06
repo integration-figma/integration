@@ -1,0 +1,35 @@
+/* Inter Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* Roboto Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* bg */
+.bg-custom-black-500 {
+    background: #232323;
+}
+
+
+.test {
+    background-color: red
+}
+
+/* border */
+
+.bg-custom-grey-300 {
+    border-width: 1px;
+    border-color: #828282;
+    border-radius: 0.25rem;
+    width: 100%;
+    border-style: solid;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+
+/* buttom */
+
+.bg-custom-red {
+    background-color: #bb2323;
+    border-radius: 9999px;
+}

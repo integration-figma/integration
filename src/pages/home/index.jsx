@@ -1,9 +1,17 @@
+import { Skill } from "../../components/competence";
+import { Temoin } from "../../components/temoin";
+import { Actu } from "../../components/actualiter";
+import { Contact } from "../../components/contact";
 
-function Home() {
+const Home = () => {
   return (
-    <div >
-    </div>
+    <>
+      < Skill/>
+      < Temoin/>
+      < Actu/>
+      < Contact/>
+    </>
   );
-}
+};
 
 export default Home;
