@@ -1,8 +1,8 @@
 import { styles } from "./styles";
-import SvgSectionTestimonials from "../../assets/img/svgDesktop/BgTestimonials.svg";
-import PicsProfil from "../../assets/img/gallery/profiltémoignages.svg";
-import BorderOrange from "../../assets/img/ico/borderOrange.svg";
-import LitleBorderOrange from "../../assets/img/ico/litleBorderOrange.svg";
+import SvgSectionTestimonials from "../../assets/img/BgTestimonials.svg";
+import PicsProfil from "../../assets/img/profiltémoignages.svg";
+import BorderOrange from "../../assets/img/borderOrange.svg";
+import LitleBorderOrange from "../../assets/img/litleBorderOrange.svg";
 
 export const Section6TestimonialDesktop = () => {
   return (

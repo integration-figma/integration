@@ -1,7 +1,7 @@
 import { styles } from "./styles";
-import locationIco from "../../assets/img/ico/adress.svg";
-import mailIco from "../../assets/img/ico/mail.svg";
-import telIco from "../../assets/img/ico/tel.svg";
+import locationIco from "../../assets/img/adress.svg";
+import mailIco from "../../../assets/img/mail.svg";
+import telIco from "../../../assets/img/tel.svg";
 
 export const Section8ContactMobile = () => {
   return (

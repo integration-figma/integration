@@ -1,15 +1,15 @@
 import { styles } from "./styles";
-import BgHeader from "../../assets/img/svgDesktop/BgHeader.svg";
-import IcoTelHeader from "../../assets/img/svgDesktop/IcoTelHeader.svg";
-import IcoMailHeader from "../../assets/img/svgDesktop/IcoMail.svg";
+import BgHeader from "../../assets/img/BgHeader.svg";
+import IcoTelHeader from "../../assets/img/IcoTelHeader.svg";
+import IcoMailHeader from "../../assets/img/IcoMail.svg";
 
-import ProfilPics from "../../assets/img/svgDesktop/ProfilPics.svg";
-import sega from "../../assets/img/partners/sega.png";
-import ubisoft from "../../assets/img/partners/ubisoft.png";
-import microsoft from "../../assets/img/partners/microsoft.png";
-import ea from "../../assets/img/partners/ea.png";
-import capcom from "../../assets/img/partners/capcom.png";
-import bethesda from "../../assets/img/partners/bethesda.png";
+import ProfilPics from "../../assets/img/ProfilPics.svg";
+import sega from "../../assets/img/sega.png";
+import ubisoft from "../../assets/img/ubisoft.png";
+import microsoft from "../../assets/img/microsoft.png";
+import ea from "../../assets/img/ea.png";
+import capcom from "../../assets/img/capcom.png";
+import bethesda from "../../assets/img/bethesda.png";
 
 export const Section1HeaderDesktop = () => {
   return (

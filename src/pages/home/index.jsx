@@ -1,11 +1,11 @@
-import { Section1HeaderDesktop } from "../headerDesktop";
-import { Section2Skills } from "../section2/sectionSkills";
-import { Section3Portfolio } from "../section3/sectionPortfolio";
-import { Section4Timeline } from "../section4/sectionTimeline";
-import { Section5Skills } from "../section5/sectionSkills2";
-import { Section6TestimonialDesktop } from "../section6";
-import { Section7NewsDesktop } from "../newsDesktop";
-import { Section8ContactDesktop } from "../contactDesktop";
+import { Section1HeaderDesktop } from "../../components/section1";
+import { Section2Skills } from "../../components/section2";
+import { Section3Portfolio } from "../../components/section3";
+import { Section4Timeline } from "../../components/section4";
+import { Section5Skills } from "../../components/section5/sectionSkills2";
+import { Section6TestimonialDesktop } from "../../components/section6";
+import { Section7NewsDesktop } from "../../components/section7/index";
+import { Section8ContactDesktop } from "../../components/section8/index";
 
 export const Home = () => {
   return (
@@ -20,7 +20,7 @@ export const Home = () => {
         <Section6TestimonialDesktop />
         <Section7NewsDesktop />
         <Section8ContactDesktop />
-        
+
       </div>
     </>
   );

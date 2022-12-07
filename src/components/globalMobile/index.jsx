@@ -1,7 +1,7 @@
 import { Section1HeaderMobile } from "../section1/headerMobile";
-import { Section2Skills } from "../section2/sectionSkills";
-import { Section3Portfolio } from "../section3/sectionPortfolio"
-import { Section4Timeline } from "../section4/sectionTimeline";
+import { Section2Skills } from "../section2/index";
+import { Section3Portfolio } from "../section3/index"
+import { Section4Timeline } from "../section4/index";
 import { Section6TestimonialsMobile } from "../section6/testimonialsMobile";
 import { Section8ContactMobile } from "../section8/contactMobile";
 import { Section7NewsMobile } from "../section7/newsMobile";
