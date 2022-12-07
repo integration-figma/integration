@@ -1,12 +1,12 @@
 import styles from "./styles";
-import border from "../../../assets/img/ico/borderOrange.svg";
-import exp1 from "../../../assets/img/ico/experience1.svg";
-import exp2 from "../../../assets/img/ico/experience2.svg";
-import exp3 from "../../../assets/img/ico/experience3.svg";
-import hr from "../../../assets/img/ico/hr.svg";
-import ss from "../../../assets/img/ico/ss.svg";
-import aa from "../../../assets/img/ico/aa.svg";
-import ff from "../../../assets/img/ico/ff.svg";
+import border from "../../assets/img/borderOrange.svg";
+import exp1 from "../../assets/img/experience1.svg";
+import exp2 from "../../assets/img/experience2.svg";
+import exp3 from "../../assets/img/experience3.svg";
+import hr from "../../assets/img/hr.svg";
+import ss from "../../assets/img/ss.svg";
+import aa from "../../assets/img/aa.svg";
+import ff from "../../assets/img/ff.svg";
 
 export const Section4Timeline = () => {
   return (

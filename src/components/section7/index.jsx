@@ -1,7 +1,7 @@
 import { styles } from "./styles";
-import BorderOrange from "../../assets/img/ico/borderOrange.svg";
+import BorderOrange from "../../assets/img/borderOrange.svg";
 
-import BgNews from "../../assets/img/svgDesktop/BgNews.svg";
+import BgNews from "../../assets/img/BgNews.svg";
 
 export const Section7NewsDesktop = () => {
   return (

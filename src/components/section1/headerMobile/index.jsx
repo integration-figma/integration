@@ -1,12 +1,12 @@
 // import { styles } from "./styles";
-import menuBurger from "../../assets/img/ico/menuBurger.svg";
-import croix from "../../assets/img/ico/croix.svg";
-import sega from "../../assets/img/partners/sega.png";
-import ubisoft from "../../assets/img/partners/ubisoft.png";
-import microsoft from "../../assets/img/partners/microsoft.png";
-import ea from "../../assets/img/partners/ea.png";
-import capcom from "../../assets/img/partners/capcom.png";
-import bethesda from "../../assets/img/partners/bethesda.png";
+import menuBurger from "../../../assets/img/menuBurger.svg";
+import croix from "../../../assets/img/croix.svg";
+import sega from "../../../assets/img/sega.png";
+import ubisoft from "../../../assets/imgubisoft.png";
+import microsoft from "../../../assets/imgmicrosoft.png";
+import ea from "../../../assets/imgea.png";
+import capcom from "../../../assets/imgcapcom.png";
+import bethesda from "../../../assets/imgbethesda.png";
 
 export const Section1HeaderMobile = () => {
   return (

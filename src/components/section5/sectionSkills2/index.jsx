@@ -1,11 +1,11 @@
-import AngularIco from "../../../assets/img/ico/angular.svg";
-import ReactIco from "../../../assets/img/ico/react.svg";
-import NodeIco from "../../../assets/img/ico/node.svg";
-import ManagementIco from "../../../assets/img/ico/management.svg";
-import AnalitycsIco from "../../../assets/img/ico/analytics.svg";
-import BrainIco from "../../../assets/img/ico/brainstorming.svg";
-import ExecutionIco from "../../../assets/img/ico/management.svg";
-import BorderOrange from "../../../assets/img/ico/borderOrange.svg";
+import AngularIco from "../../../assets/img/angular.svg";
+import ReactIco from "../../../assets/img/react.svg";
+import NodeIco from "../../../assets/img/node.svg";
+import ManagementIco from "../../../assets/img/management.svg";
+import AnalitycsIco from "../../../assets/img/analytics.svg";
+import BrainIco from "../../../assets/img/brainstorming.svg";
+import ExecutionIco from "../../../assets/img/management.svg";
+import BorderOrange from "../../../assets/img/borderOrange.svg";
 import { styles } from "./styles";
 
 export const Section5Skills = () => {

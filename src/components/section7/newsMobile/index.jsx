@@ -1,5 +1,5 @@
 import { styles } from "./styles";
-import borderOrange from "../../assets/img/ico/borderOrange.svg";
+import borderOrange from "../../../assets/img/borderOrange.svg";
 
 export const Section7NewsMobile = () => {
   return (
