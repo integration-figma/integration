@@ -20,6 +20,7 @@ export const Home = () => {
         <Section6TestimonialDesktop />
         <Section7NewsDesktop />
         <Section8ContactDesktop />
+        
       </div>
     </>
   );
