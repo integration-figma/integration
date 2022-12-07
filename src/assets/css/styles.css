@@ -9,10 +9,15 @@
     background: #232323;
 }
 
-
-.test {
-    background-color: red
+.bg-custom-black-100 {
+    background: #E5E5E5;
 }
+
+.bg-custom-brown {
+    background: #2C2C2C;
+}
+
+
 
 /* border */
 
@@ -33,3 +38,4 @@
     background-color: #bb2323;
     border-radius: 9999px;
 }
+
