@@ -1,8 +1,11 @@
+import Header from "../../components/header";
+import Section1 from "../../components/section1";
 
 function Home() {
   return (
-    <div >
-      <h1>Branch de Ruben</h1>
+    <div>
+      <Header />
+      <Section1 />
     </div>
   );
 }
