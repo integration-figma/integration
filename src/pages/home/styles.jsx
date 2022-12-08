@@ -50,7 +50,7 @@ export const styles = {
   contactBtn:
     "flex flex-col items-center justify-center h-12 w-40 bg-custom-red font-inter font-normal rounded-3xl text-sm ",
 
-  bg: "bg-custom-black-500 h-max py-14 lg:h-screen lg:pt-32 lg:bg-[url('../../assets/img/ico/sectionSkills.svg')]",
+  bg: "bg-custom-black-500 h-max py-14 lg:h-screen lg:pt-32",
   divSkills: "flex flex-col items-start justify-center pl-7 lg:items-center",
   img: "pb-6 pl-1",
   title: "font-inter font-semibold text-white text-4xl pb-5",
