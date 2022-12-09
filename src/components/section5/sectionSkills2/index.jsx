@@ -12,12 +12,12 @@ export const Section5Skills = () => {
   return (
     <>
       {/* background brown */}
-      <div className={styles.bgSkills}>
+      <div className={`${styles.bgSkills} opacity-0 absolute`} >
         {/* div for 2 box skills */}
         <div className={styles.grid.gridCols2}>
           {/* cols 1 */}
-          <div className="ml-40 mt-64">
-            <div className="flex justify-end pb-6 ">
+          <div className="lg:ml-40 lg:mt-64">
+            <div className="lg:flex lg:justify-end lg:pb-6 ">
               {/* div skills angular */}
               <div className={`${styles.bgBoxContent}`} style={{width: "300px", height: "60px"}}>
                 <div className={styles.iconBox}>
@@ -34,7 +34,7 @@ export const Section5Skills = () => {
                 </div>
               </div>
               {/* div skills React */}
-              <div className={`ml-6 ${styles.bgBoxContent}`}  style={{width: "350px", height: "60px"}}>
+              <div className={`lg:ml-6 ${styles.bgBoxContent}`}  style={{width: "350px", height: "60px"}}>
                 <div className={styles.iconBox}>
                   <img
                     src={ReactIco}
@@ -67,7 +67,7 @@ export const Section5Skills = () => {
                 </div>
               </div>
               {/* div skills Management */}
-              <div className={`ml-6 ${styles.bgBoxContent}`}  style={{width: "300px", height: "60px"}}>
+              <div className={`lg:ml-6 ${styles.bgBoxContent}`}  style={{width: "300px", height: "60px"}}>
                 <div className={styles.iconBox}>
                   <img
                     src={ManagementIco}
@@ -83,7 +83,7 @@ export const Section5Skills = () => {
               </div>
             </div>
             {/* div for 2 box skills */}
-            <div className="flex justify-center ml-10 pb-6">
+            <div className="lg:flex lg:justify-center lg:ml-10 lg:pb-6">
               {/* div skills Analitycs */}
               <div className={`${styles.bgBoxContent}`}  style={{width: "285px", height: "60px"}}>
                 <div className={styles.iconBox}>
@@ -100,7 +100,7 @@ export const Section5Skills = () => {
                 </div>
               </div>
               {/* div skills Brainstorming */}
-              <div className={`ml-6 ${styles.bgBoxContent}`}  style={{width: "285px", height: "60px"}}>
+              <div className={`lg:ml-6 ${styles.bgBoxContent}`}  style={{width: "285px", height: "60px"}}>
                 <div className={styles.iconBox}>
                   <img
                     src={BrainIco}
@@ -115,7 +115,7 @@ export const Section5Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center mr-[4.5rem] pb-6">
+            <div className="lg:flex lg:justify-center lg:mr-[4.5rem] lg:pb-6">
               {/* div skills Execution */}
               <div className={`${styles.bgBoxContent}`}  style={{width: "482px", height: "60px"}}>
                 <div className={styles.iconBox}>
@@ -136,10 +136,10 @@ export const Section5Skills = () => {
           {/* cols-2 */}
           <div>
             {/* div content text Skills */}
-            <div className="ml-52 mt-72">
+            <div className="lg:ml-52 lg:mt-72">
               <h2 className={`${styles.h2Skills}`}>Compétences</h2>
               <img
-                className="pt-4 pb-10 pl-1"
+                className="lg:pt-4 lg:pb-10 lg:pl-1"
                 src={BorderOrange}
                 height="auto"
                 width="auto"

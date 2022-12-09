@@ -14,7 +14,7 @@ import bethesda from "../../assets/img/bethesda.png";
 export const Section1HeaderDesktop = () => {
   return (
     <>
-      <div className={styles.ContentBgSVG}>
+      <div className={`${styles.ContentBgSVG} ${styles.small.ContentBgSVG}`}>
         {/* div for content text */}
         <div>
           <div className="absolute">
@@ -23,7 +23,7 @@ export const Section1HeaderDesktop = () => {
                 Olivier.
               </h2>
               <img
-                className="px-4 pb-2"
+                className="px-4 pb-2 "
                 src={IcoTelHeader}
                 height="auto"
                 width="auto"
@@ -82,7 +82,7 @@ export const Section1HeaderDesktop = () => {
                 </div>
               </div>
               {/* cols 2 */}
-              <div className="flex justify-end items-center ml-40 pt-20">
+              <div className="flex justify-end items-center ml-40 pt-20 ">
                 <img
                   src={ProfilPics}
                   alt="olivier"

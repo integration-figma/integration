@@ -7,47 +7,47 @@ import LitleBorderOrange from "../../assets/img/litleBorderOrange.svg";
 export const Section6TestimonialDesktop = () => {
   return (
     // For background SVG IMG
-    <div className={styles.ContentBgSVG}>
+    <div className={`${styles.ContentBgSVG} ${styles.small.ContentBgSVG}`}>
       {/* div for content text */}
       <div>
-        <div className="absolute pt-36 text-4xl flex flex-col justify-center items-center w-screen">
-          <h2 className=" pl-80">Témoignages</h2>
+        <div className="lg:absolute lg:pt-36 lg:text-4xl lg:flex lg:flex-col lg:justify-center lg:items-center lg:w-screen">
+          <h2 className=" lg:pl-80">Témoignages</h2>
           <img
-            className="pt-4 pl-80"
+            className="lg:pt-4 lg:pl-80"
             src={BorderOrange}
             height="auto"
             width="auto"
             alt="Border Orange"
           />
-          <div className="flex pt-20 pl-80">
+          <div className="lg:flex lg:pt-20 lg:pl-80">
             <img
-              className="pr-8 -mt-12"
+              className="lg:pr-8 lg:-mt-12"
               height="auto"
               width="auto"
               src={PicsProfil}
               alt="Pics Profil"
             />
             <div>
-              <div className="text-xl w-200  pt-2 italic">
+              <div className="lg:text-xl lg:w-200  lg:pt-2 lg:italic">
                 Proin iaculis purus consequat sem cure digni ssim donec
                 porttitora entum suscipit rhoncus. Accusantium quam, ultricies
                 eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
               </div>
               <img
-                className="pt-4"
+                className="lg:pt-4"
                 src={LitleBorderOrange}
                 height="auto"
                 width="auto"
                 alt="Border Orange"
               />
               <div>
-                <p className=" pt-4 text-lg font-bold">Saul Goodman</p>
-                <p className="pt-1 text-sm">Ceo And Founder</p>
+                <p className=" lg:pt-4 lg:text-lg lg:font-bold">Saul Goodman</p>
+                <p className="lg:pt-1 lg:text-sm">Ceo And Founder</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="justify-center flex">
+        <div className="lg:justify-center lg:flex">
           <img
             src={SvgSectionTestimonials}
             height="auto"
@@ -57,13 +57,5 @@ export const Section6TestimonialDesktop = () => {
         </div>
       </div>
     </div>
-
-    /* <div>Test
-
-
-   <div className="justify-center flex">
-     <img src={SvgSectionTestimonials} alt="Background Svg" />
-      </div>
-</div> */
   );
 };

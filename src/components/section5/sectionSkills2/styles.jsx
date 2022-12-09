@@ -1,15 +1,15 @@
 export const styles = {
   grid: {
-    gridCols2: "grid grid-cols-2 justify-center",
+    gridCols2: "lg:grid lg:grid-cols-2 lg:justify-center",
   },
 
-  bgSkills: "bg-custom-black-500 h-[43rem]",
-  bgBoxContent:"h-16  bg-custom-brown rounded-lg",
-  iconBox: "h-full flex items-center pl-5 w-full",
-  textBoxSkills: "text-white font-inter font-semibold text-sm pl-6 w-full",
+  bgSkills: "lg:bg-custom-black-500 lg:h-[43rem]",
+  bgBoxContent:"lg:h-16  lg:bg-custom-brown lg:rounded-lg",
+  iconBox: "lg:h-full lg:flex lg:items-center lg:pl-5 lg:w-full",
+  textBoxSkills: "lg:text-white lg:font-inter lg:font-semibold lg:text-sm lg:pl-6 lg:w-full",
   boxRoundedOrange:
-    "bg-custom-orange font-inter text-sm rounded-xl px-3 py-0.5 pb-1 font-semibold ",
-  justifyEndBoxOrange: "w-full flex justify-end pr-7",
-  h2Skills: "font-inter text-4xl text-white",
-  paragraphSkills: "text-sm font-inter text-white leading-6 pl-1",
+    "lg:bg-custom-orange lg:font-inter lg:text-sm lg:rounded-xl lg:px-3 lg:py-0.5 lg:pb-1 lg:font-semibold ",
+  justifyEndBoxOrange: "lg:w-full lg:flex lg:justify-end lg:pr-7",
+  h2Skills: "lg:font-inter lg:text-4xl lg:text-white",
+  paragraphSkills: "lg:text-sm lg:font-inter lg:text-white lg:leading-6 lg:pl-1",
 };

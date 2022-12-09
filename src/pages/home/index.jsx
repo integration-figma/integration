@@ -10,7 +10,7 @@ import { Section8ContactDesktop } from "../../components/section8/index";
 export const Home = () => {
   return (
     <>
-      <div className="hidden lg:block">
+      <div className="bg-custom-black-500 text-white">
         
         <Section1HeaderDesktop />
         <Section2Skills />
