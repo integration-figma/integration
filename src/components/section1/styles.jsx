@@ -2,7 +2,7 @@
 
 export const styles = {
   // section for principal div
-  ContentBgSVG: "bg-custom-black-500 text-white font-inter h-full flex justify-center",
+  ContentBgSVG: "bg-custom-black-500 text-white font-inter h-full justify-center",
 
   // border orange
   borderOrange: "pt-5 pb-10 pl-0.5",

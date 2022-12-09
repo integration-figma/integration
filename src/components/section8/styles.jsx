@@ -43,11 +43,11 @@ export const styles = {
   contactLabel:
     " bg-custom-black-500 font-roboto font-normal text-sm leading-6 -mt-2.5 z-10 absolute ml-5 pl-2 pr-3",
   contactInput:
-    "h-12 w-10 bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-10 ",
+    "h-12 w-10 bg-custom-black-500 border border-custom-gray-300 opacity-1 rounded-lg z-0 mb-10 ",
   contactInputMessage:
-    "h-32 w-80 bg-custom-black-500 border border-custom-gray-300 rounded-lg z-0 mb-8",
+    "h-32 w-80 bg-custom-black-500 border px-7 border-custom-gray-300 rounded-lg z-0 mb-8",
 
   // btn styles
   contactBtn:
-    "flex flex-col items-center justify-center h-12  px-8 bg-custom-red font-inter font-normal rounded-3xl text-sm ",
+    "flex flex-col items-center justify-center h-12  px-16 bg-custom-red font-inter font-normal rounded-3xl text-sm ",
 };

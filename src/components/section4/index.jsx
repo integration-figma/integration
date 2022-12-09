@@ -65,7 +65,7 @@ export const Section4Timeline = () => {
           </p>
         </div>
       </section>
-      <section className="hidden lg:bg-custom-black-500 lg:grid lg:grid-cols-3 lg:py-24">
+      <section className="hidden lg:bg-custom-black-100 lg:grid lg:grid-cols-3 lg:pt-24">
         <div className="lg:flex lg:flex-col lg:items-start lg:pl-28">
           <h2 className={styles.title}>Experience</h2>
           <img src={border} alt="border" className="pb-6 pr-28" />

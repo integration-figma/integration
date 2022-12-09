@@ -1,5 +1,5 @@
 let styles = {
-  bg: "bg-custom-black-500 h-max pt-9 lg:hidden",
+  bg: "bg-custom-black-100 h-max pt-9 lg:hidden",
   divSkills: "flex flex-col items-start justify-center pl-7 lg:items-center lg:w-full",
   img: "pb-6 pl-1 lg:pr-32",
   title: "font-inter font-semibold text-white text-4xl pb-5",

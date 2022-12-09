@@ -29,6 +29,9 @@ module.exports = {
       lineHeight: {
         "extra-height": "3.75rem",
       },
+      backgroundImagea: {
+        // 'contact':""
+      }
     },
   },
   plugins: [],

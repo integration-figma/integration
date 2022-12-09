@@ -7,7 +7,6 @@ import BorderOrange from "../../assets/img/borderOrange.svg";
 
 export const Section2Skills = () => {
   return (
-    <>
       <section className={styles.bg}>
         <div className={styles.divSkills}>
           <h2 className={styles.title}>Compétences</h2>
@@ -56,6 +55,5 @@ export const Section2Skills = () => {
           </section>
         </section>
       </section>
-    </>
   );
 };

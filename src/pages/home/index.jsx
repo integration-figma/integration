@@ -9,9 +9,7 @@ import { Section8ContactDesktop } from "../../components/section8/index";
 
 export const Home = () => {
   return (
-    <>
       <div>
-        
         <Section1HeaderDesktop />
         <Section2Skills />
         <Section3Portfolio />
@@ -20,9 +18,7 @@ export const Home = () => {
         <Section6TestimonialDesktop />
         <Section7NewsDesktop />
         <Section8ContactDesktop />
-
       </div>
-    </>
   );
 };
 

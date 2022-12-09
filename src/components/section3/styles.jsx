@@ -1,5 +1,5 @@
 export let styles = {
-  bg: "bg-custom-gray-700 h-max py-10 lg:grid lg:grid-cols-2 lg:bg-[url('../../assets/img/sectionPortfolio.svg')] lg:bg-cover ",
+  bg: "bg-custom-black-100 h-max py-10 lg:grid lg:grid-cols-2 lg:bg-[url('../../assets/img/sectionPortfolio.svg')] lg:bg-cover ",
   divPortfolio:
     "flex flex-col items-start justify-center pl-7 lg:flex-row",
   title: "font-inter font-semibold lg:text-center text-white text-4xl pb-5 lg:mr-12 ",

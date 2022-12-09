@@ -13,7 +13,6 @@ import bethesda from "../../assets/img/bethesda.png";
 
 export const Section1HeaderDesktop = () => {
   return (
-    <>
       <div className={styles.ContentBgSVG}>
         {/* div for content text */}
         <div>
@@ -142,6 +141,5 @@ export const Section1HeaderDesktop = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
